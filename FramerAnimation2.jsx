@@ -7,7 +7,7 @@ function FramerAnimation() {
     <div
       style={{
         display: "flex",
-        FlexDirection: "column",
+        flexDirection: "column",
         gap: "10px",
         alignItems: "center",
       }}
