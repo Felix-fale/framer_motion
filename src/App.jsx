@@ -1,4 +1,4 @@
-import FramerAnimation from "../FramerAnimation5";
+import FramerAnimation from "../FramerAnimation6";
 import "./App.css";
 // import FramerAnimation from "../FramerAnimation";
 

@@ -3,7 +3,7 @@ import { motion, useScroll } from "framer-motion";
 
 function FramerAnimation() {
   const { scrollYProgress } = useScroll();
-  console.log(scrollYProgress);
+  console.log(scrollYProgress.timeDelta);
   return (
     <>
       <motion.div
