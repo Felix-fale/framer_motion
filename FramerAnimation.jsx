@@ -17,3 +17,5 @@ function FramerAnimation() {
 }
 
 export default FramerAnimation;
+
+// https://www.youtube.com/watch?v=54AJAH3Y4xE&list=PLnZgHKyxHOEAy7MisX6CSMe4JTzkeodmC&index=6
