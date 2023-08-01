@@ -31,7 +31,23 @@ function FramerAnimation() {
         }}
         layout
         onClick={() => setShowCard(!showCard)}
-      ></motion.div>
+      >
+        <motion.h3>Hover or click</motion.h3>
+        {showCard && (
+          <motion.p
+            style={{
+              width: "600px",
+              initial: { opacity: 0 },
+              animate: { opacity: 1 },
+            }}
+          >
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Consequuntur asperiores, incidunt, et, corporis eos eius sapiente ex
+            magnam ipsa non cupiditate! Pariatur ratione nam eos veritatis quis
+            accusantium omnis eveniet?
+          </motion.p>
+        )}
+      </motion.div>
     </div>
   );
 }
